@@ -27,6 +27,14 @@ circle.endFill();
 // circle.x = 250;
 // circle.y = 250;
 
+
+// draw torus
+const torus = new Graphics();
+torus.beginFill(0x66CCFF);
+torus.drawTorus(100, 700, 80, 100);
+torus.endFill();
+
+app.stage.addChild(torus);
 app.stage.addChild(circle);
 app.stage.addChild(rectangle);
 

@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@pixi/graphics-extras": "^7.1.4",
     "pixi.js": "^7.1.3"
   }
 }
